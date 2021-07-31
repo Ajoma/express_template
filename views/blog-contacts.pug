@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  p All Contact forms
+  p #{fname}
+  p #{lname}
+  p #{email}
+  p #{comment}
+  //- form(method="GET" action="/contact/form")
+  //-   button.btn.btn-success(type="submit") Fill Contact form
+       
+  //- if blogContacts
+  //-   each contact in blogContacts
+  //-     .card
+  //-       .card-body
+  //-         a(href="/contact/" + contact.comment).card-title #{contact.fname}
+  //-         p.card-text= contact.email
+  //-         p 
+  //-           | Author: 
+  //-           a(href='/contact/auth/' + contact.user.username)= contact.user.fname + ' ' + contact.user.lname

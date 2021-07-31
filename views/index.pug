@@ -1,0 +1,96 @@
+extends layout
+
+block content
+  //- h1= title
+  //- p Welcome to #{title}
+
+  // Comment
+  header
+  // navigation
+
+  // banner
+  h2.text-center #{greeting}
+  .banner
+    .herotext
+      h1 Dogs
+      h2 The wonderful antics of our canine friends
+      
+  // Intro
+  .grid-container
+    .intro.p-lr
+      h2 Intro
+      p
+        | Vestibulum ut tempor lorem. Nam ut mi mauris. Aliquam quis viverra 
+        a(href='#' target='_blank') velit.
+        | &#x9;&#x9;&#x9;&#x9;Sed egestas, velit sit amet luctus pretium, enim dolor interdum felis, at pretium tellus nibh id velit.
+        | &#x9;&#x9;&#x9;&#x9;Maecenas semper tincidunt dolor tincidunt fringilla. Fusce bibendum nunc ac magna elementum, a ultricies
+        | &#x9;&#x9;&#x9;&#x9;nulla posuere. Cras sed lacus faucibus, ornare diam vitae, dapibus mauris. Ut ac est non lectus gravida
+        | &#x9;&#x9;&#x9;&#x9;placerat at non lectus. Nunc blandit, elit eu tempor aliquam, mi libero fringilla nisl, non sagittis
+        | &#x9;&#x9;&#x9;&#x9;massa justo in nunc. Donec ornare sed arcu nec tempor. Duis nec ipsum varius, viverra lacus sit amet,
+        | &#x9;&#x9;&#x9;&#x9;sollicitudin arcu.
+    .events.p-lr
+      h4 Event 1
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      hr
+      h4 Event 2
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      hr
+      h4 Event 3
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      hr
+      h4 Event 4
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+    .row
+      .col-sm-6
+        img.img-fluid(src='../images/gallery_01.jpg' alt='beach')
+        figcaption.text-center Italy
+      .col-sm-6
+        img.img-fluid(src='../images/gallery_01.jpg' alt='beach')
+        figcaption.text-center Italy
+    
+  
+    .row
+      .col-sm-4.card 
+        img.img-fluid(src='../images/gallery_02.jpg' alt='beach')
+        figcaption.text-center Cancun
+      .col-sm-4.card
+        img.img-fluid(src='../images/gallery_02.jpg' alt='beach')
+        figcaption.text-center Cancun
+      .col-sm-4.card
+        img.img-fluid(src='../images/gallery_02.jpg' alt='beach')
+        figcaption.text-center Cancun
+
+    .art.p-lr
+      h2 Article
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla congue, lorem at posuere vestibulum, magna
+        | dolor fringilla sapien, ac efficitur est risus non est. Maecenas ac eros id nibh egestas tristique.
+        | Aenean eros est, sollicitudin in velit non, tempor eleifend ipsum. Suspendisse nec mattis libero. Ut id
+        | interdum nisi, ac efficitur nibh. Mauris eu mattis tellus, vitae consequat tellus. Maecenas egestas
+        | venenatis est quis ullamcorper. Sed rutrum lectus ut sem pharetra bibendum. Curabitur sit amet sem eget
+        | nunc gravida dignissim.
+      p
+        | Nam nec eros mattis, tempor mauris in, ornare nulla. Donec elementum tellus felis, sed sodales massa
+        | euismod posuere. Nulla imperdiet fringilla purus, vel consectetur augue accumsan at. Donec porttitor
+        | purus felis, eget luctus ligula imperdiet eget. Duis felis ligula, euismod vitae purus in, efficitur
+        | sodales turpis. Aenean eu neque nec mi porta viverra. Nam lectus mauris, vulputate et auctor id,
+        | imperdiet sit amet metus. Nullam viverra libero et dapibus egestas. Curabitur porttitor urna vitae nisl
+        | ultrices finibus. Aliquam erat volutpat. Suspendisse eu urna scelerisque, fermentum nulla vel, euismod
+        | libero. Nullam volutpat maximus urna in auctor. Pellentesque habitant morbi tristique senectus et netus
+        | et malesuada fames ac turpis egestas. Ut dignissim rhoncus arcu.
+      p
+        | Cras vel elit lacus. Nulla pellentesque vel magna ac varius. Quisque rutrum pretium turpis quis tempor.
+        | Quisque venenatis congue lectus mollis sodales. Ut aliquet nec arcu eget malesuada. Pellentesque a
+        | rutrum diam. Suspendisse eleifend lorem et neque rutrum blandit. Fusce vel nisl dignissim purus interdum
+        | lacinia. Nunc molestie neque posuere posuere pulvinar. Nulla nibh turpis, feugiat sed porta quis, luctus
+        | vitae mauris. Donec scelerisque nulla nec libero laoreet feugiat.
+      p
+        | Phasellus at massa vel nisi commodo convallis sit amet non nibh. Proin imperdiet condimentum elit, vitae
+        | tincidunt sem viverra nec. Cras eu enim id nisi tincidunt congue. Aenean mollis nibh eros, vitae
+        | faucibus neque tincidunt sed. Nullam rhoncus est eget ligula molestie interdum. Vivamus nulla lectus,
+        | congue id ullamcorper a, feugiat sed nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  // Comment
+  footer
+    p Copyright &copy; 2021
+

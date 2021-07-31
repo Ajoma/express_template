@@ -1,0 +1,45 @@
+extends layout
+
+block content
+  h1= Contact
+
+  // Comment
+  header
+    // navigation
+    
+    // banner
+    .banner
+      .herotext
+        h1 Dogs
+        h2 The wonderful antics of our canine friends fkdfkdofdofd kxlkfdklfkdlfkdlfkdsl
+  // Intro
+  .contact-grid-container
+    // Contact form
+    form( method='POST' action='/contact')
+      h3 Connect with us
+      .form-floating.m-3
+        input#fname.form-control(type='text' placeholder='Your name' name='fname')
+        label.form-label(for='fname') First Name
+      .form-floating.m-3
+        input#lname.form-control(type='text' placeholder='Your last name' name='lname')
+        label.form-label(for='lname') Last Name
+      .form-floating.m-3
+        input#emailadd.form-control(type='email' name='email' placeholder='Email address')
+        label.form-label(for='emailadd') Email 
+      .form-floating.m-3
+        textarea#comment.form-control(name='comment' placeholder='Comment...' rows='5')
+        label.form-label(for='comment') Comment or Question
+      .p
+        label
+          input(type='checkbox' name='lab')
+          |  Add me to your Newsletter
+      button.btn.btn-primary.m-3(type='submit') Submit
+      
+    // map
+    //- .map
+    //-   figure
+    //-     img(src='img/dogs-825949_small.jpg' alt='dog in a hat')
+    //-     figcaption Get me out of this hat
+  // footer
+  footer
+
